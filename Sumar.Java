@@ -10,10 +10,10 @@ public class Sumar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese el valor de numero1: ");
+        System.out.print("Ingrese el valor de numero 1: ");
         int numero1 = scanner.nextInt();
 
-        System.out.print("Ingrese el valor de numero2: ");
+        System.out.print("Ingrese el valor de numero 2: ");
         int numero2 = scanner.nextInt();
 
         int resultado = sumar(numero1, numero2);
