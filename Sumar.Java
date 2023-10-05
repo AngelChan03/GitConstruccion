@@ -1,25 +1,30 @@
-import java.util.Scanner;
-
 public class Sumar {
 
-    public static int sumar(int numero1, int numero2) {
-        int resultado = numero1 + numero2;
-        return resultado;
+    private int numero1;
+    private int numero2;
+
+    public Suma(int numero1, int numero2) {
+        this.numero1 = numero1;
+        this.numero2 = numero2;
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public int getNumero1() {
+        return numero1;
+    }
 
-        System.out.print("Ingrese el valor de numero 1: ");
-        int numero1 = scanner.nextInt();
+    public void setNumero1(int numero1) {
+        this.numero1 = numero1;
+    }
 
-        System.out.print("Ingrese el valor de numero 2: ");
-        int numero2 = scanner.nextInt();
+    public int getNumero2() {
+        return numero2;
+    }
 
-        int resultado = sumar(numero1, numero2);
-        System.out.println("La suma de " + numero1 + " y " + numero2 + " es igual a " + resultado);
+    public void setNumero2(int numero2) {
+        this.numero2 = numero2;
+    }
 
-        // Cerrar el scanner para evitar pérdida de recursos
-        scanner.close();
+    public int realizarSuma() {
+        return numero1 + numero2;
     }
 }
