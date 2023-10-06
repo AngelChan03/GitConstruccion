@@ -1,4 +1,4 @@
-public class Sumar {
+public class Suma {
 
     private double numero1;
     private double numero2;
