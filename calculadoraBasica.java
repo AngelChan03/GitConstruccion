@@ -1,10 +1,12 @@
 public class CalculadoraBasica {
+    
     public void CalculadoraBasica(){
 
     }
 
-    public void calcularSuma(){
-
+    public void calcularSuma(double primerValor, double segundoValor) {
+        double sumaTotal = primerValor + segundoValor;
+        System.out.println("La suma de los numeros es igual a " + sumaTotal);
     }
 
     public void calcularResta(){
