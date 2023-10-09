@@ -56,11 +56,11 @@ public class Main {
                     break;
 
                 case 4:
-                    System.out.print("Ingrese el dividendo: ");
-                    double dividendo = scanner.nextDouble();
-                    System.out.print("Ingrese el divisor: ");
-                    double divisor = scanner.nextDouble();
-                    resultadoTotal = calculadora.calcularDivision(dividendo, divisor);
+                    System.out.print("Ingrese el numerador: ");
+                    double numerador = scanner.nextDouble();
+                    System.out.print("Ingrese el denominador: ");
+                    double denominador = scanner.nextDouble();
+                    resultadoTotal = calculadora.calcularDivision(numerador, denominador);
                     break;
 
                 case 5:
