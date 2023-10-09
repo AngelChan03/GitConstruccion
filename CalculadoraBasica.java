@@ -1,10 +1,12 @@
 public class CalculadoraBasica {
+    
     public void CalculadoraBasica(){
 
     }
 
-    public void calcularSuma(){
-
+    public double calcularSuma(double primerValorSuma, double segundoValorSuma) {
+        double sumaTotal = primerValorSuma + segundoValorSuma;
+        return sumaTotal;
     }
 
     public void calcularResta(){
