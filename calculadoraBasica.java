@@ -11,8 +11,11 @@ public class CalculadoraBasica {
         
     }
 
-    public void calcularMultiplicacion(){
-
+    public double calcularMultiplicacion(double factorMultiplicando, double multiplicador){
+        
+        double resultado = factorMultiplicando * multiplicador;
+        
+        return resultado;
     }
 
     public void calcularDivision(){
