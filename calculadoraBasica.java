@@ -19,8 +19,9 @@ public class CalculadoraBasica {
 
     }
     
-    public void calcularPotencia(){
-
+    public static double calcularPotencia(double base, int exponente) {
+        double resultadoExponente = Math.pow(base, exponente);
+        return resultadoExponente;
     }
 
     public void calcularModulo(){
