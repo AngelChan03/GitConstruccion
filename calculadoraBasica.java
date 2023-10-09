@@ -7,8 +7,9 @@ public class CalculadoraBasica {
 
     }
 
-    public void calcularResta(){
-        
+    public double calcularResta(double primerValorResta, double segundoValorResta){
+        double restaTotal = primerValorResta - segundoValorResta;
+        return restaTotal;
     }
 
     public void calcularMultiplicacion(){
