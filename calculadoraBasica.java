@@ -4,9 +4,9 @@ public class CalculadoraBasica {
 
     }
 
-    public void calcularSuma(double primerValor, double segundoValor) {
-        double sumaTotal = primerValor + segundoValor;
-        System.out.println("La suma de los numeros es igual a " + sumaTotal);
+    public double calcularSuma(double primerValorSuma, double segundoValorSuma) {
+        double sumaTotal = primerValorSuma + segundoValorSuma;
+        return sumaTotal;
     }
 
     public void calcularResta(){
