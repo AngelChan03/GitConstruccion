@@ -1,5 +1,6 @@
-public class CalculadoraBasica {
-    public void CalculadoraBasica(){
+ class CalculadoraBasica {
+    
+    public CalculadoraBasica(){
 
     }
 
@@ -23,8 +24,8 @@ public class CalculadoraBasica {
 
     }
 
-    public void calcularModulo(){
-
+    public double calcularModulo(double numerador, double divisor){
+        double residuo = numerador % divisor;
+        return residuo;
     }
-
 }
