@@ -15,7 +15,8 @@ public class CalculadoraBasica {
 
     }
 
-    public void calcularDivision(){
+    public double calcularDivision(double numerador, double denominador){
+        return  numerador/denominador;
 
     }
     
