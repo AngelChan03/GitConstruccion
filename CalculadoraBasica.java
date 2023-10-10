@@ -16,8 +16,8 @@ public class CalculadoraBasica {
     }
 
     public double calcularDivision(double numerador, double denominador){
-        double resultado = numerador/denominador;
-        return resultado;
+        return  numerador/denominador;
+
     }
     
     public void calcularPotencia(){
